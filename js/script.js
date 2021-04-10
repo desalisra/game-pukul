@@ -2,7 +2,7 @@ const tanah = document.querySelectorAll('.tanah');
 const tikus = document.querySelectorAll('.tikus');
 const papanSkor = document.querySelector('.papan-skor');
 const pop = document.querySelector('#pop');
-const dp = document.querySelector('.row');
+const dp = document.querySelector('#dp-game');
 
 let tanahSebelumnya;
 let selesai;
@@ -45,7 +45,7 @@ function mulai() {
   setTimeout(() => {
     selesai = true;
     dp.classList.add('d-none')
-  }, 10000);
+  }, 15000);
 }
 
 function pukul() {

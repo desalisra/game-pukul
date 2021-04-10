@@ -18,12 +18,15 @@
 
 <body>
   <div class="container">
-    <h1 class="text-center">Pukul Aku</h1>
-    <h2 class="papan-skor">0</h2>
-    <button type="button" class="mulai btn btn-primary  text-center " onclick="mulai()">Mulai!</button>
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-xs-12">
+        <h1>Pukul Aku</h1>
+        <h2 class="papan-skor">0</h2>
+        <button type="button" class="mulai btn btn-primary  text-center " onclick="mulai()">Mulai!</button>
+      </div>
+    </div>
     
-
-    <div class="row d-none">
+    <div class="row d-none" id="dp-game">
       <div class="col-md-4 col-xs-6 tanah">
         <div class="tikus"></div>  
       </div>
